@@ -1,15 +1,3 @@
-#include "wolf.h"
-#include <iostream>
-
-using namespace std;
-
-Wolf::Wolf(Color color, int y, int x) : Piece(color, y, x) {
-    setName(PIECE_NAME[WOLF-1]);
-    setRank(WOLF);
-}
-
-bool Wolf::isMoveValid(Board* board, int y, int x) {
-    if (abs(getY() - y) + abs(getX() - x) != 1)  // move other than 1 square
-        return false;
-    return Piece::isMoveValid(board, y, x);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f6983f6c6e5fbc55e7049eaaa7ff8cd084524a2033c4f00ae6a395f3d5a46e53
+size 390

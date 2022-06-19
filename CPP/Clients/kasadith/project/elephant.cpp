@@ -1,16 +1,3 @@
-#include "elephant.h"
-#include <iostream>
-
-using namespace std;
-
-Elephant::Elephant(Color color, int y, int x) : Piece(color, y, x) {
-    setName(PIECE_NAME[ELEPHANT-1]);
-    setRank(ELEPHANT);
-}
-
-bool Elephant::isMoveValid(Board* board, int y, int x) {
-    if (abs(getY() - y) + abs(getX() - x) != 1)  // move other than 1 square
-        return false;
-    return Piece::isMoveValid(board, y, x);
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:68aceebcb679e06c602949a755151f526272ba19689255e662788b3eb27b0186
+size 416

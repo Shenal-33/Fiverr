@@ -1,35 +1,3 @@
-/*
- * Calculator.cpp
- *
- *  Date: [Enter date]
- *  Author: [Your Name]
- */
-
-#include <iostream>
-
-using namespace std;
-
-int  main()
-{
-	char statement[100];
-	int op1, op2;
-	char operation;
-	char answer = 'y';
-	while (answer=='y')
-	{
-		cout << "Enter expression" <<endl;
-		cin >> op1 >> operation >> op2;
-		if (operation == '+')
-			cout << op1 << " + " << op2 << " = " << op1 + op2 << endl;
-		if (operation == '-')
-			cout << op1 << " - " << op2 << " = " << op1 - op2 << endl;
-		if (operation == '*')
-			cout << op1 << " * " << op2 << " = " << op1 * op2 << endl;
-		if (operation == '/')
-			cout << op1 << " / " << op2 << " = " << op1 / op2 << endl;
-
-		cout << "Do you wish to evaluate another expression? " << endl;
-		cin >> answer;
-	}
-	return 0;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b2b17b83792b830dcec054c93a5aecec99f1399e344f0b6ea9800f2207d4b63d
+size 779

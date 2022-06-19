@@ -1,13 +1,3 @@
-#include <string>
-#include <iostream>
-#include "Constants.h"
-
-using namespace std;
-
-void dashLine(size_t lineLength)
-{
-    for (size_t x = 0; x < lineLength; x++)
-        cout << REPEAT_CHAR;
-
-    cout << endl;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:46ef3d06a6d43eca5915169d37491925983c91163e6547e944a06fc7792021c5
+size 224

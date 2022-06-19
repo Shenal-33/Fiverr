@@ -1,16 +1,3 @@
-#include "tiger.h"
-#include <iostream>
-
-using namespace std;
-
-Tiger::Tiger(Color color, int y, int x) : Piece(color, y, x) {
-    setName(PIECE_NAME[TIGER-1]);
-    setRank(TIGER);
-}
-
-bool Tiger::isMoveValid(Board* board, int y, int x) {
-    /* TODO: implement valid move check specific to a Tiger
-       Hint: make use of the isJumpable() function inherited from Jumper
-             to check if horizontal and vertical jump can be done */         
-    
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a56b54de7316fc7cf165783516b4c641ca6b6089f51d396bf53246e1861d3614
+size 470

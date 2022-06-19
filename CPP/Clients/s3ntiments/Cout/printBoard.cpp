@@ -1,22 +1,3 @@
-#include <iostream>
-
-using namespace std;
-
-int main(){
-
-    cout << "    A   B   C   D   E   F   G\n";
-    cout <<"  +---+---+---+---+---+---+---+\n";
-    
-    for (int i = 0; i<9; i++){
-        cout << i + 1 << " ";
-        for(int j =0; j < 8; j++){
-           
-            
-        }
-        cout << "|\n";
-        cout <<"  +---+---+---+---+---+---+---+\n";
-    }
-    
-    
-    return 0 ;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:22cb2f6b692e4cdd97b0d608d0d75d8786cecc43f66614fd13737227d97deafa
+size 415

@@ -1,15 +1,3 @@
-#include "dog.h"
-#include <iostream>
-
-using namespace std;
-
-Dog::Dog(Color color, int y, int x) : Piece(color, y, x) {
-    setName(PIECE_NAME[DOG-1]);
-    setRank(DOG);
-}
-
-bool Dog::isMoveValid(Board* board, int y, int x) {
-    if (abs(getY() - y) + abs(getX() - x) != 1)  // move other than 1 square
-        return false;
-    return Piece::isMoveValid(board, y, x);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e30d1141bbe23ae6ce8b89063ab769149a068e8ff3545eb6c93f98e9721c284d
+size 384

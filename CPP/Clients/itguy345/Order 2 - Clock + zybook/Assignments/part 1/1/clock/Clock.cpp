@@ -1,25 +1,3 @@
-#include <iostream>
-#include <string>
-#include "Clock.h"
-
-using namespace std;
-
-
-
-Clock::Clock(int hours, int minutes, int seconds) {
-    this->hours = hours;
-    this->minutes = minutes;
-    this->seconds = seconds;
-}
-
-int Clock::getHours() {
-    return this->hours;
-}
-
-int Clock::getMinutes() {
-    return this->minutes;
-}
-
-int Clock::getSeconds() {
-    return this->seconds;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e34b01a78651e4bfbe666caea735ae85414ef3664d082ebe521c04f9832dc5cd
+size 405

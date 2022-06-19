@@ -1,21 +1,3 @@
-#include "rat.h"
-#include <iostream>
-
-using namespace std;
-
-Rat::Rat(Color color, int y, int x) : Piece(color, y, x) {
-    setName(PIECE_NAME[RAT-1]);
-    setRank(RAT);
-}
-
-bool Rat::isMoveValid(Board* board, int y, int x) {
-    // TODO: Override the superclass version of valid move checks
-    // e.g., to allow a Rat to move into a square occuppied by an Elephant 
-    //       to allow a Rat to enter a water square
-    
-}
-
-bool Rat::canCapture(Piece* p) {
-    // TODO: Override the superclass version of capture checks
-    // A Rat can capture an Elephant
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:35e63fddd9be01483b6c8c76f0ae2ea970a7f97932b92c705182e8700760e2f2
+size 560

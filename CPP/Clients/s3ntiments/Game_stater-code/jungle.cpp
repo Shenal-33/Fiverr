@@ -1,19 +1,3 @@
-#include <iostream>
-#include "game.h"
-
-using namespace std;
-
-// This is the main menu
-
-int main(int argc, char* argv[]) {
-    char* filename = nullptr;
-    if (argc > 1)
-        filename = argv[1];
-
-    cout << "Choose game mode (1, 2, 3): ";
-    int mode;
-    cin >> mode;
-    Game game((Mode)mode, filename);
-    game.run();
-    return 0;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd09e20659a4da1bb0ce9bd51d3ec8aff9685b62ba0ae58694c026d97f0db60d
+size 362

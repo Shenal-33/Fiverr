@@ -1,15 +1,3 @@
-#include "cat.h"
-#include <iostream>
-
-using namespace std;
-
-Cat::Cat(Color color, int y, int x) : Piece(color, y, x) {
-    setName(PIECE_NAME[CAT-1]);
-    setRank(CAT);
-}
-
-bool Cat::isMoveValid(Board* board, int y, int x) {
-    if (abs(getY() - y) + abs(getX() - x) != 1)  // move other than 1 square
-        return false;
-    return Piece::isMoveValid(board, y, x);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9a94d2d15aae0d19f9bb15c6d054e213c48e07a60015fce5f8f7ebac084a425d
+size 369

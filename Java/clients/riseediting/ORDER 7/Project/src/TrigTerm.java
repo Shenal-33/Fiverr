@@ -36,7 +36,7 @@ public class TrigTerm extends LinearTerm{
             return getValue() * Math.cos(Math.toRadians(value));
         }
         else{
-            return getValue() * Math.sin(value);
+            return getValue() * Math.sin(Math.toRadians(value));
         }
     }
 
